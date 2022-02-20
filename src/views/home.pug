@@ -10,19 +10,6 @@ html(lang="en")
         header 
             h1 Room
         main 
-            div#welcome
-                form
-                    input(placeholder ="romm name", required, type="text")
-                    button Enter Room
-            div#room
-                h3
-                ul
-                form#name
-                    input(placeholder ="nickname", required, type="text")
-                    button submit 
-                    
-                form#msg
-                    input(placeholder ="message", required, type="text")
-                    button Send        
+            video#myFace(autoplay,playsinline, muted, width="400", height="400")
         script(src="/socket.io/socket.io.js")  
         script(src="public/js/app.js")
